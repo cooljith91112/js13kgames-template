@@ -14,7 +14,7 @@ Integrated gulp build process for :
 ## Usage
 
 ```bash
-npm start # for development
+npm start # for development live reloading server
 ```
 ```bash
 npm release # for minification+zip (final output will be available on ./dist/archive.zip)
