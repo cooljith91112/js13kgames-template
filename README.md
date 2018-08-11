@@ -11,6 +11,14 @@ Integrated gulp build process for :
 * Final Zip file Compression
 * Shows final zip file size.
 
+## Usage
+
+```bash
+npm start # for development
+```
+```bash
+npm release # for minification+zip (final output will be available on ./dist/archive.zip)
+```
 
 ## Support me 
 [<img height='36' style='border:0px;height:36px;' src='https://az743702.vo.msecnd.net/cdn/kofi3.png?v=0' border='0' alt='Buy Me a Coffee at ko-fi.com' />](https://ko-fi.com/R6R36EBQ)
