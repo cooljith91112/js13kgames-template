@@ -1,0 +1,22 @@
+{
+  "name": "js13kgames-template",
+  "version": "1.0.0",
+  "description": "A barebone template aimed for js13kgames",
+  "scripts": {
+    "start": "./node_modules/.bin/gulp serve",
+    "release": "./node_modules/.bin/gulp zipFiles"
+  },
+  "author": "Indrajith K L",
+  "license": "MIT",
+  "dependencies": {
+    "kontra": "^4.0.0",
+    "tinymusic": "^1.0.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.24.6",
+    "gulp": "^3.9.1",
+    "gulp-size": "^3.0.0",
+    "gulp-uglify": "^3.0.1",
+    "gulp-vinyl-zip": "^2.1.0"
+  }
+}
