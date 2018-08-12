@@ -3,10 +3,11 @@ A barebone template aimed for [js13kgames](js13kgames.com)
 ## This template includes
 * [Kontra](https://github.com/straker/kontra)
 * [TinyMusic](https://github.com/kevincennis/TinyMusic)
+* [jsfxr](https://github.com/mneubrand/jsfxr)
 
 ## Features
 Integrated gulp build process for :
-* Copying libs under node_modules folder to an distributable folder.
+* ES6 Support
 * Minification
 * Final Zip file Compression
 * Shows final zip file size.
@@ -14,7 +15,7 @@ Integrated gulp build process for :
 ## Usage
 
 ```bash
-npm start # for development live reloading server
+npm start # for development - live reloading server
 ```
 ```bash
 npm release # for minification+zip (final output will be available on ./dist/archive.zip)
