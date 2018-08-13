@@ -13,12 +13,16 @@ Integrated gulp build process for :
 * Shows final zip file size.
 
 ## Usage
+```bash
+# First install the dependencies
+npm install
+```
 
 ```bash
 npm start # for development - live reloading server
 ```
 ```bash
-npm release # for minification+zip (final output will be available on ./dist/archive.zip)
+npm run release # for minification+zip (final output will be available on ./dist/archive.zip)
 ```
 
 ## Support me 
