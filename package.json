@@ -21,13 +21,12 @@
     "browser-sync": "^2.24.6",
     "del": "^3.0.0",
     "gulp": "^3.9.1",
-    "gulp-rollup": "^2.16.2",
     "gulp-size": "^3.0.0",
     "gulp-uglify": "^3.0.1",
     "gulp-vinyl-zip": "^2.1.0",
+    "rollup": "^0.64.1",
     "rollup-plugin-babel": "^3.0.7",
-    "rollup-stream": "^1.24.1",
-    "run-sequence": "^2.2.1",
-    "vinyl-source-stream": "^2.0.0"
+    "rollup-plugin-terser": "^1.0.1",
+    "run-sequence": "^2.2.1"
   }
 }
